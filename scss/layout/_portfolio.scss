@@ -34,6 +34,10 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+
 }
 
 .portfolio__thumb {
@@ -43,8 +47,23 @@
 }
 
 .portfolio__item {
-    flex-basis: calc((100% - 30px * 2) / 3);
+
     transition: box-shadow var(--timing-function);
+
+    // @media screen and (min-width: 480px) {
+    //     flex-wrap: nowrap;
+    // }
+
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px * 2) / 2);
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 30px * 2) / 3);
+
+    }
+
 
     &:hover,
     &:focus {
@@ -57,7 +76,6 @@
 
 }
 }
-
 
 
 .portfolio-wrapper {
