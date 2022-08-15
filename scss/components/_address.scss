@@ -1,0 +1,33 @@
+.address__item {
+    margin-bottom: 9px;
+    margin-right: 70px;
+}
+
+.address__map {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--logo-withe-cl);
+
+    transition: color var(--timing-function);
+
+}
+
+.address__mail,
+.address__phone {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--address-txt-cl);
+
+    transition: var(--timing-function);
+}
+
+.address__map:hover,
+.address__mail:hover,
+.address__phone:hover,
+.address__map:focus,
+.address__mail:focus,
+.address__phone:focus {
+    color: var(--accent-txt-cl);
+}
