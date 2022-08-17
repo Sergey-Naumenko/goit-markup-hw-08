@@ -167,8 +167,8 @@ img {
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  width: calc(100% - 15px);
+  height: calc(100% - 93px);
   padding: 40px;
   position: relative;
   top: 50%;
@@ -181,6 +181,18 @@ img {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
 
 .form {
   text-align: center;
@@ -189,11 +201,17 @@ img {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   display: block;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+@media screen and (min-width: 1200px) {
+  .form__title {
+    font-size: 20px;
+    line-height: 1.15;
+  }
 }
 .form__group {
   display: block;
@@ -297,14 +315,20 @@ img {
 }
 .form-agreement__title {
   display: block;
-  font-size: 14px;
-  line-height: 0.5833333333;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   color: #757575;
+}
+@media screen and (min-width: 1200px) {
+  .form-agreement__title {
+    font-size: 14px;
+    line-height: 0.5833333333;
+  }
 }
 
 .form-agreement__checkbox:checked + .form-agreement__icon--cheked .form-agreement__icon--uncheck {
