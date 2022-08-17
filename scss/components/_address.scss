@@ -1,6 +1,24 @@
 .address__item {
-    margin-bottom: 9px;
-    margin-right: 70px;
+margin-bottom: 8px;
+
+    @media screen and (min-width:1200px) {
+        margin-bottom: 9px;
+
+    }
+}
+
+.address__list {
+
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 60px;
+        
+  
+    @media screen and (min-width:1200px) {
+        text-align: left;
+        margin-bottom: 0;
+
+    }
 }
 
 .address__map {
