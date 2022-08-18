@@ -33,7 +33,7 @@
 					<span class="logo__text">Web</span>
 					Studio
 				</a>
-				<button class="burger-btn" type="button">
+				<button class="burger-btn js-open-menu" aria-expanded="false" aria-controls="menu-container" type="button">
 					<svg class="burger-icon" width="40" height="40">
 						<use href="./images/icons.svg#icon-menu"></use>
 					</svg>
@@ -538,7 +538,7 @@
 		</div>
 
 		<!-- mobile menu -->
-		<div class="menu-container">
+		<div class="menu-container js-menu-container" id="menu-container">
 			<ul class="mobile__list list">
 				<li class="mobile__item">
 					<a class="mobile__link link mobile__link--current" href="./index.html">Студія</a>
@@ -560,8 +560,22 @@
 				<li class="mobile-socials__item"><a class="mobile-socials__link link" href="">Facebook</a></li>
 				<li class="mobile-socials__item"><a class="mobile-socials__link link" href="">LinkedIn</a></li>
 			</ul>
+
+			<button class="burger-btn js-close-menu" type="button">
+				<svg class="burger-btn__icon" width="40" height="40">
+					<use href="./images/icons.svg#icon-burger-close"></use>
+				</svg>
+			</button>
 		</div>
 		<!-- add modal -->
 		<script src="./js/modal.js"></script>
+		<!-- add js burger menu -->
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+			integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+			crossorigin="anonymous"
+		></script>
+		<script defer src="js/mobile-menu.js"></script>
 	</body>
 </html>

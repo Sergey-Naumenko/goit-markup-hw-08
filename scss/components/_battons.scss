@@ -27,16 +27,23 @@
 }
 
 .burger-btn {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 40px;
-    height: 40px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
 
     border-style: none;
     background-color: transparent;
     cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+        fill: var(--accent-txt-cl);
+    }
 
 
     @media screen and (min-width: 767px) {
@@ -44,6 +51,7 @@
             display: none;
         }
 }
+
 
 .modal-btn {
     position: absolute;
