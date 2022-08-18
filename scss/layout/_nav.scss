@@ -1,5 +1,11 @@
 .nav {
+
     margin-right: auto;
+
+    @media screen and (max-width: 767px) {
+    
+            display: none;
+        }
 
     &__list {
             display: flex;

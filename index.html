@@ -27,12 +27,17 @@
 	</head>
 	<body class="body">
 		<!-- Header-->
-		<!-- <header class="header">
+		<header class="header">
 			<div class="container header__container">
 				<a class="logo header__logo link" href="./index.html">
 					<span class="logo__text">Web</span>
 					Studio
 				</a>
+				<button class="burger-btn" type="button">
+					<svg class="burger-icon" width="40" height="40">
+						<use href="./images/icons.svg#icon-menu"></use>
+					</svg>
+				</button>
 				<nav class="nav">
 					<ul class="nav__list list">
 						<li class="nav__item">
@@ -61,7 +66,7 @@
 					</li>
 				</ul>
 			</div>
-		</header> -->
+		</header>
 		<main class="main">
 			<!--Hero-->
 			<section class="hero">
@@ -532,6 +537,30 @@
 			</div>
 		</div>
 
+		<!-- mobile menu -->
+		<div class="menu-container">
+			<ul class="mobile__list list">
+				<li class="mobile__item">
+					<a class="mobile__link link mobile__link--current" href="./index.html">Студія</a>
+				</li>
+				<li class="mobile__item"><a class="mobile__link link" href="./portfolio.html">Портфоліо</a></li>
+				<li class="mobile__item"><a class="mobile__link link" href="">Контакти</a></li>
+			</ul>
+
+			<ul class="mobile__list list">
+				<li class="mobile__item"><a href="tel:+380961111111" class="mobile__link link">+38 096 111 11 11</a></li>
+				<li class="mobile__item">
+					<a href="mailto:info@devstudio.com" class="mobile__link link">info@devstudio.com</a>
+				</li>
+			</ul>
+
+			<ul class="mobile-socials__list list">
+				<li class="mobile-socials__item"><a class="mobile-socials__link link" href="">Instagram</a></li>
+				<li class="mobile-socials__item"><a class="mobile-socials__link link" href="">Twitter</a></li>
+				<li class="mobile-socials__item"><a class="mobile-socials__link link" href="">Facebook</a></li>
+				<li class="mobile-socials__item"><a class="mobile-socials__link link" href="">LinkedIn</a></li>
+			</ul>
+		</div>
 		<!-- add modal -->
 		<script src="./js/modal.js"></script>
 	</body>
