@@ -124,20 +124,41 @@
 				<h2 class="services__title">Чим ми займаємося</h2>
 				<ul class="services__list list">
 					<li class="services__item">
-						<img class="services__img" src="./images/services/box_1.jpeg" alt="Пишемо код" width="370" />
+						<picture>
+							<!-- desktop -->
+							<source media="(min-width: 1200px)" srcset="./images/services/img-1@1x_l.webp 1x, ./images/services/img-1@2x_l.webp 2x" type="image/webp">
+							<source media="(min-width: 1200px)" srcset="./images/services/img-1@1x_l.jpg 1x, ./images/services/img-1@2x_l.jpg 2x" type="image/jpg">
+
+							<!-- fallback -->
+							<img class="services__img" src="./images/services/img-1@1x_l.jpg" alt="Пишемо код" width="370" />
+						</picture>
+						<!-- <img class="services__img" src="./images/services/box_1.jpeg" alt="Пишемо код" width="370" /> -->
 						<div class="services__overlay">
 							<p class="services__text">Десктопні додатки</p>
 						</div>
 					</li>
 					<li class="services__item">
-						<img class="services__img" src="./images/services/box_2.jpeg" alt="Робимо верстку"
-							width="370" />
+						<picture>
+							<!-- desktop -->
+							<source media="(min-width: 1200px)" srcset="./images/services/img-2@1x_l.webp 1x, ./images/services/img-2@2x_l.webp 2x" type="image/webp">
+							<source media="(min-width: 1200px)" srcset="./images/services/img-2@1x_l.jpg 1x, ./images/services/img-2@2x_l.jpg 2x" type="image/jpg">
+
+							<!-- fallback -->
+							<img class="services__img" src="./images/services/img-2@1x_l.jpg" alt="Робимо верстку" width="370" />
+						</picture>
 						<div class="services__overlay">
 							<p class="services__text">Мобільні додатки</p>
 						</div>
 					</li>
 					<li class="services__item">
-						<img class="services__img" src="./images/services/box_3.jpeg" alt="робимо дизайн" width="370" />
+						<picture>
+							<!-- desktop -->
+							<source media="(min-width: 1200px)" srcset="./images/services/img-3@1x_l.webp 1x, ./images/services/img-3@2x_l.webp 2x" type="image/webp">
+							<source media="(min-width: 1200px)" srcset="./images/services/img-3@1x_l.jpg 1x, ./images/services/img-3@2x_l.jpg 2x" type="image/jpg">
+
+							<!-- fallback -->
+							<img class="services__img" src="./images/services/img-3@1x_l.jpg" alt="робимо дизайн" width="370" />
+						</picture>
 						<div class="services__overlay">
 							<p class="services__text">Дизайнерські рішення</p>
 						</div>
@@ -151,7 +172,21 @@
 				<h2 class="team__title">Наша команда</h2>
 				<ul class="team__list list">
 					<li class="team__item">
-						<img class="team__img" src="./images/team/img_1.jpeg" alt="Игорь Демьяненко" width="270" />
+						<!-- tag picture -->
+						<picture>
+							<!-- desktop -->
+							<source media="(min-width: 1200px)" srcset="./images/team/img-1@1x_l.webp 1x, ./images/team/img-1@2x_l.webp 2x" type="image/webp">
+							<source media="(min-width: 1200px)" srcset="./images/team/img-1@1x_l.jpg 1x, ./images/team/img-1@2x_l.jpg 2x" type="image/jpg">
+							<!-- tablet -->
+							<source media="(min-width: 768px)" srcset="./images/team/img-1@1x_m.webp 1x, ./images/team/img-1@2x_m.webp 2x" type="image/webp">
+							<source media="(min-width: 768px)" srcset="./images/team/img-1@1x_m.jpg 1x, ./images/team/img-1@2x_m.jpg 2x" type="image/jpg">
+							<!-- mobile -->
+							<source media="(max-width: 767px)" srcset="./images/team/img-1@1x_s.webp 1x, ./images/team/img-1@2x_s.webp 2x" type="image/webp">
+							<source media="(max-width: 767px)" srcset="./images/team/img-1@1x_s.jpg 1x, ./images/team/img-1@2x_s.jpg 2x" type="image/jpg">
+							<!-- fallback -->
+							<img class="team__img" src="./images/team/img-1@1x_s.jpg" alt="Игорь Демьяненко" width="450" />
+						</picture>
+
 						<div class="team-wrapper">
 							<h3 class="team-wrapper__title">Ігор Дем'яненко</h3>
 							<p class="team-wrapper__text" lang="eu">Product Designer</p>
@@ -192,7 +227,19 @@
 						</div>
 					</li>
 					<li class="team__item">
-						<img class="team__img" src="./images/team/img_2.jpeg" alt="Ольга Репина" width="270" />
+						<picture>
+							<!-- desktop -->
+							<source media="(min-width: 1200px)" srcset="./images/team/img-2@1x_l.webp 1x, ./images/team/img-2@2x_l.webp 2x" type="image/webp">
+							<source media="(min-width: 1200px)" srcset="./images/team/img-2@1x_l.jpg 1x, ./images/team/img-2@2x_l.jpg 2x" type="image/jpg">
+							<!-- tablet -->
+							<source media="(min-width: 768px)" srcset="./images/team/img-2@1x_m.webp 1x, ./images/team/img-2@2x_m.webp 2x" type="image/webp">
+							<source media="(min-width: 768px)" srcset="./images/team/img-2@1x_m.jpg 1x, ./images/team/img-2@2x_m.jpg 2x" type="image/jpg">
+							<!-- mobile -->
+							<source media="(max-width: 767px)" srcset="./images/team/img-2@1x_s.webp 1x, ./images/team/img-2@2x_s.webp 2x" type="image/webp">
+							<source media="(max-width: 767px)" srcset="./images/team/img-2@1x_s.jpg 1x, ./images/team/img-2@2x_s.jpg 2x" type="image/jpg">
+							<!-- fallback -->
+							<img class="team__img" src="./images/team/img-1@1x_s.jpg" alt="Ольга Репіна" width="450" />
+						</picture>
 						<div class="team-wrapper">
 							<h3 class="team-wrapper__title">Ольга Репіна</h3>
 							<p class="team-wrapper__text" lang="eu">Frontend Developer</p>
@@ -233,7 +280,19 @@
 						</div>
 					</li>
 					<li class="team__item">
-						<img class="team__img" src="./images/team/img_3.jpeg" alt="Николай Тарасов" width="270" />
+						<picture>
+							<!-- desktop -->
+							<source media="(min-width: 1200px)" srcset="./images/team/img-3@1x_l.webp 1x, ./images/team/img-3@2x_l.webp 2x" type="image/webp">
+							<source media="(min-width: 1200px)" srcset="./images/team/img-3@1x_l.jpg 1x, ./images/team/img-3@2x_l.jpg 2x" type="image/jpg">
+							<!-- tablet -->
+							<source media="(min-width: 768px)" srcset="./images/team/img-3@1x_m.webp 1x, ./images/team/img-3@2x_m.webp 2x" type="image/webp">
+							<source media="(min-width: 768px)" srcset="./images/team/img-3@1x_m.jpg 1x, ./images/team/img-3@2x_m.jpg 2x" type="image/jpg">
+							<!-- mobile -->
+							<source media="(max-width: 767px)" srcset="./images/team/img-3@1x_s.webp 1x, ./images/team/img-3@2x_s.webp 2x" type="image/webp">
+							<source media="(max-width: 767px)" srcset="./images/team/img-3@1x_s.jpg 1x, ./images/team/img-3@2x_s.jpg 2x" type="image/jpg">
+							<!-- fallback -->
+							<img class="team__img" src="./images/team/img-1@1x_s.jpg" alt="Микола Тарасов" width="450" />
+						</picture>
 						<div class="team-wrapper">
 							<h3 class="team-wrapper__title">Микола Тарасов</h3>
 							<p class="team-wrapper__text" lang="eu">Marketing</p>
@@ -274,7 +333,19 @@
 						</div>
 					</li>
 					<li class="team__item">
-						<img class="team__img" src="./images/team/img_4.jpeg" alt="Михаил Ермаков" width="270" />
+						<picture>
+							<!-- desktop -->
+							<source media="(min-width: 1200px)" srcset="./images/team/img-4@1x_l.webp 1x, ./images/team/img-4@2x_l.webp 2x" type="image/webp">
+							<source media="(min-width: 1200px)" srcset="./images/team/img-4@1x_l.jpg 1x, ./images/team/img-4@2x_l.jpg 2x" type="image/jpg">
+							<!-- tablet -->
+							<source media="(min-width: 768px)" srcset="./images/team/img-4@1x_m.webp 1x, ./images/team/img-4@2x_m.webp 2x" type="image/webp">
+							<source media="(min-width: 768px)" srcset="./images/team/img-4@1x_m.jpg 1x, ./images/team/img-4@2x_m.jpg 2x" type="image/jpg">
+							<!-- mobile -->
+							<source media="(max-width: 767px)" srcset="./images/team/img-4@1x_s.webp 1x, ./images/team/img-4@2x_s.webp 2x" type="image/webp">
+							<source media="(max-width: 767px)" srcset="./images/team/img-4@1x_s.jpg 1x, ./images/team/img-4@2x_s.jpg 2x" type="image/jpg">
+							<!-- fallback -->
+							<img class="team__img" src="./images/team/img-1@1x_s.jpg" alt="Михайло Єрмаков" width="450" />
+						</picture>
 						<div class="team-wrapper">
 							<h3 class="team-wrapper__title">Михайло Єрмаков</h3>
 							<p class="team-wrapper__text" lang="eu">UI Designer</p>
