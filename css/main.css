@@ -1273,8 +1273,8 @@ img {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team__item {
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
   }
 }
 .team__list {
@@ -1529,8 +1529,8 @@ img {
 }
 @media screen and (min-width: 768px) {
   .portfolio__item {
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
