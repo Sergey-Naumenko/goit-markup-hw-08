@@ -15,7 +15,12 @@
 }
 
 .header__logo {
-    margin-right: 93px;
+
+    @media screen and (max-width: 767px){
+        margin-right: auto;
+    }
+   
+
 }
 
 .logo-footer {
