@@ -1,9 +1,8 @@
 .client__title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
-    @media screen and (min-width:480px) and (max-width: 1199px) {
-        margin-bottom: 30px;
-        
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
     }
 
 }
@@ -31,7 +30,6 @@
         flex-basis: calc((100% - 60px) / 2);
 
 
-        
     }
 
     @media screen and (min-width:768px) and (max-width:1199px) {
